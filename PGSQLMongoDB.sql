@@ -1,7 +1,7 @@
 -- Create database
 
 CREATE TABLE MongoDB (
-  id PRIMARY KEY CHECK (id = 1),
+  id INT PRIMARY KEY CHECK (id = 1),
   document JSON
 );
 
